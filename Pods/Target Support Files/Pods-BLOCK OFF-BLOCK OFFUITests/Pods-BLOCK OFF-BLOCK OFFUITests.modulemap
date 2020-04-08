@@ -1,0 +1,6 @@
+framework module Pods_BLOCK_OFF_BLOCK_OFFUITests {
+  umbrella header "Pods-BLOCK OFF-BLOCK OFFUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
