@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "login_bacground.png",
+      "filename" : "forgot_password_background_pdf.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "login_bacground@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "login_bacground@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
