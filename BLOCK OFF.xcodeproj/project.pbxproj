@@ -11,8 +11,6 @@
 		80530D006F8BF9AD08D583CA /* Pods_BLOCK_OFF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8023D849B58E36E29240C59 /* Pods_BLOCK_OFF.framework */; };
 		EC1E1B63243E7730003B1202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E1B62243E7730003B1202 /* AppDelegate.swift */; };
 		EC1E1B65243E7730003B1202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E1B64243E7730003B1202 /* SceneDelegate.swift */; };
-		EC1E1B67243E7730003B1202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E1B66243E7730003B1202 /* ViewController.swift */; };
-		EC1E1B6A243E7730003B1202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E1B68243E7730003B1202 /* Main.storyboard */; };
 		EC1E1B6C243E7734003B1202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E1B6B243E7734003B1202 /* Assets.xcassets */; };
 		EC1E1B6F243E7734003B1202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E1B6D243E7734003B1202 /* LaunchScreen.storyboard */; };
 		EC1E1B7A243E7734003B1202 /* BLOCK_OFFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E1B79243E7734003B1202 /* BLOCK_OFFTests.swift */; };
@@ -36,6 +34,27 @@
 		ECB1EE49243F17ED002F20C5 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE36243F17ED002F20C5 /* Poppins-Italic.ttf */; };
 		ECB1EE4A243F17ED002F20C5 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE37243F17ED002F20C5 /* Poppins-MediumItalic.ttf */; };
 		ECB1EE4C243F61E0002F20C5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */; };
+		ECB1EE52243F6B7A002F20C5 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE51243F6B7A002F20C5 /* Authentication.storyboard */; };
+		ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE53243F6DC2002F20C5 /* LoginVC.swift */; };
+		ECB1EE56243F6E0E002F20C5 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE55243F6E0D002F20C5 /* UIViewController.swift */; };
+		ECB1EE59243F6E75002F20C5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE58243F6E75002F20C5 /* HomeVC.swift */; };
+		ECB1EE5D243F6EDC002F20C5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE5C243F6EDC002F20C5 /* Home.storyboard */; };
+		ECB1EE5F243F6F3A002F20C5 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE5E243F6F3A002F20C5 /* Connectivity.swift */; };
+		ECB1EE61243F6F57002F20C5 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE60243F6F57002F20C5 /* Constant.swift */; };
+		ECB1EE63243F6F8A002F20C5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE62243F6F8A002F20C5 /* UIView.swift */; };
+		ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE64243F6FAD002F20C5 /* AuthToken.swift */; };
+		ECB1EE67243F6FE6002F20C5 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE66243F6FE6002F20C5 /* UIImageView.swift */; };
+		ECB1EE69243F7011002F20C5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE68243F7011002F20C5 /* Date.swift */; };
+		ECB1EE6B243F7019002F20C5 /* Decodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE6A243F7019002F20C5 /* Decodable+.swift */; };
+		ECB1EE72243F702A002F20C5 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE6D243F702A002F20C5 /* CustomPresentationController.swift */; };
+		ECB1EE73243F702A002F20C5 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE6E243F702A002F20C5 /* Interactor.swift */; };
+		ECB1EE74243F702A002F20C5 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE6F243F702A002F20C5 /* VisualEffectView.swift */; };
+		ECB1EE75243F702A002F20C5 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE70243F702A002F20C5 /* DismissAnimator.swift */; };
+		ECB1EE76243F702A002F20C5 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE71243F702A002F20C5 /* PresentAnimator.swift */; };
+		ECB1EE7C243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE7B243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift */; };
+		ECB1EE7E243F755B002F20C5 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE7D243F755B002F20C5 /* AuthenticationCoordinator.swift */; };
+		ECB1EE81243F7652002F20C5 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */; };
+		ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */; };
 		ED30BD3C6892DFC3DE81F9EE /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6AF7F7EAD7E9E4369CECC /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,8 +86,6 @@
 		EC1E1B5F243E7730003B1202 /* BLOCK OFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLOCK OFF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1E1B62243E7730003B1202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC1E1B64243E7730003B1202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC1E1B66243E7730003B1202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC1E1B69243E7730003B1202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC1E1B6B243E7734003B1202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1E1B6E243E7734003B1202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1E1B70243E7734003B1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +95,6 @@
 		EC1E1B80243E7734003B1202 /* BLOCK OFFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLOCK OFFUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1E1B84243E7734003B1202 /* BLOCK_OFFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLOCK_OFFUITests.swift; sourceTree = "<group>"; };
 		EC1E1B86243E7734003B1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC1E1C08243E8118003B1202 /* BLOCK OFF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BLOCK OFF.entitlements"; sourceTree = "<group>"; };
 		ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -98,6 +114,27 @@
 		ECB1EE36243F17ED002F20C5 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		ECB1EE37243F17ED002F20C5 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		ECB1EE51243F6B7A002F20C5 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		ECB1EE53243F6DC2002F20C5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		ECB1EE55243F6E0D002F20C5 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		ECB1EE58243F6E75002F20C5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		ECB1EE5C243F6EDC002F20C5 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ECB1EE5E243F6F3A002F20C5 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		ECB1EE60243F6F57002F20C5 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ECB1EE62243F6F8A002F20C5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		ECB1EE64243F6FAD002F20C5 /* AuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthToken.swift; sourceTree = "<group>"; };
+		ECB1EE66243F6FE6002F20C5 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		ECB1EE68243F7011002F20C5 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		ECB1EE6A243F7019002F20C5 /* Decodable+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decodable+.swift"; sourceTree = "<group>"; };
+		ECB1EE6D243F702A002F20C5 /* CustomPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		ECB1EE6E243F702A002F20C5 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		ECB1EE6F243F702A002F20C5 /* VisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		ECB1EE70243F702A002F20C5 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		ECB1EE71243F702A002F20C5 /* PresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
+		ECB1EE7B243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		ECB1EE7D243F755B002F20C5 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE88CB8815FE237A74688586 /* Pods_BLOCK_OFFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLOCK_OFFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -178,12 +215,12 @@
 		EC1E1B61243E7730003B1202 /* BLOCK OFF */ = {
 			isa = PBXGroup;
 			children = (
-				EC1E1C08243E8118003B1202 /* BLOCK OFF.entitlements */,
 				EC1E1B92243E784A003B1202 /* App */,
 				EC1E1B93243E7862003B1202 /* Launch */,
-				EC1E1B95243E7E60003B1202 /* Utils */,
+				ECB1EE4D243F6AF4002F20C5 /* Authentication */,
+				ECB1EE57243F6E62002F20C5 /* Home */,
+				EC1E1B95243E7E60003B1202 /* Util */,
 				EC1E1B94243E7873003B1202 /* Resources */,
-				EC1E1B66243E7730003B1202 /* ViewController.swift */,
 				EC1E1B70243E7734003B1202 /* Info.plist */,
 			);
 			path = "BLOCK OFF";
@@ -211,9 +248,8 @@
 			isa = PBXGroup;
 			children = (
 				EC1E1B62243E7730003B1202 /* AppDelegate.swift */,
-				ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */,
 				EC1E1B64243E7730003B1202 /* SceneDelegate.swift */,
-				EC1E1B68243E7730003B1202 /* Main.storyboard */,
+				ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -235,11 +271,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		EC1E1B95243E7E60003B1202 /* Utils */ = {
+		EC1E1B95243E7E60003B1202 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				ECB1EE6C243F702A002F20C5 /* Custom Presentation VC */,
+				ECB1EE55243F6E0D002F20C5 /* UIViewController.swift */,
+				ECB1EE5E243F6F3A002F20C5 /* Connectivity.swift */,
+				ECB1EE60243F6F57002F20C5 /* Constant.swift */,
+				ECB1EE62243F6F8A002F20C5 /* UIView.swift */,
+				ECB1EE64243F6FAD002F20C5 /* AuthToken.swift */,
+				ECB1EE66243F6FE6002F20C5 /* UIImageView.swift */,
+				ECB1EE68243F7011002F20C5 /* Date.swift */,
+				ECB1EE6A243F7019002F20C5 /* Decodable+.swift */,
 			);
-			path = Utils;
+			path = Util;
 			sourceTree = "<group>";
 		};
 		EC890B52243E827F007D1483 /* Fonts */ = {
@@ -273,6 +318,128 @@
 				ECB1EE37243F17ED002F20C5 /* Poppins-MediumItalic.ttf */,
 			);
 			path = Poppins;
+			sourceTree = "<group>";
+		};
+		ECB1EE4D243F6AF4002F20C5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE7A243F7512002F20C5 /* Coordinators */,
+				ECB1EE4E243F6B36002F20C5 /* Service */,
+				ECB1EE4F243F6B40002F20C5 /* Login */,
+				ECB1EE82243F7680002F20C5 /* Register */,
+				ECB1EE7F243F7621002F20C5 /* Forgot Password */,
+				ECB1EE50243F6B52002F20C5 /* Storyboard */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		ECB1EE4E243F6B36002F20C5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ECB1EE4F243F6B40002F20C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE53243F6DC2002F20C5 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ECB1EE50243F6B52002F20C5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE51243F6B7A002F20C5 /* Authentication.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		ECB1EE57243F6E62002F20C5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE77243F706C002F20C5 /* Coordinators */,
+				ECB1EE78243F7084002F20C5 /* Service */,
+				ECB1EE5A243F6EB7002F20C5 /* List */,
+				ECB1EE79243F7092002F20C5 /* View */,
+				ECB1EE5B243F6ECC002F20C5 /* Storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ECB1EE5A243F6EB7002F20C5 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE58243F6E75002F20C5 /* HomeVC.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		ECB1EE5B243F6ECC002F20C5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE5C243F6EDC002F20C5 /* Home.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		ECB1EE6C243F702A002F20C5 /* Custom Presentation VC */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE6D243F702A002F20C5 /* CustomPresentationController.swift */,
+				ECB1EE6E243F702A002F20C5 /* Interactor.swift */,
+				ECB1EE6F243F702A002F20C5 /* VisualEffectView.swift */,
+				ECB1EE70243F702A002F20C5 /* DismissAnimator.swift */,
+				ECB1EE71243F702A002F20C5 /* PresentAnimator.swift */,
+			);
+			path = "Custom Presentation VC";
+			sourceTree = "<group>";
+		};
+		ECB1EE77243F706C002F20C5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		ECB1EE78243F7084002F20C5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ECB1EE79243F7092002F20C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB1EE7A243F7512002F20C5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE7B243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift */,
+				ECB1EE7D243F755B002F20C5 /* AuthenticationCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		ECB1EE7F243F7621002F20C5 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		ECB1EE82243F7680002F20C5 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,13 +568,14 @@
 				ECB1EE44243F17ED002F20C5 /* Poppins-LightItalic.ttf in Resources */,
 				EC1E1B6F243E7734003B1202 /* LaunchScreen.storyboard in Resources */,
 				ECB1EE3E243F17ED002F20C5 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				ECB1EE52243F6B7A002F20C5 /* Authentication.storyboard in Resources */,
 				ECB1EE43243F17ED002F20C5 /* Poppins-Regular.ttf in Resources */,
 				ECB1EE3F243F17ED002F20C5 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				ECB1EE45243F17ED002F20C5 /* Poppins-Bold.ttf in Resources */,
 				ECB1EE39243F17ED002F20C5 /* Poppins-ThinItalic.ttf in Resources */,
 				ECB1EE3D243F17ED002F20C5 /* Poppins-Medium.ttf in Resources */,
 				EC1E1B6C243E7734003B1202 /* Assets.xcassets in Resources */,
-				EC1E1B6A243E7730003B1202 /* Main.storyboard in Resources */,
+				ECB1EE5D243F6EDC002F20C5 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,10 +754,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB1EE63243F6F8A002F20C5 /* UIView.swift in Sources */,
 				ECB1EE4C243F61E0002F20C5 /* AppCoordinator.swift in Sources */,
-				EC1E1B67243E7730003B1202 /* ViewController.swift in Sources */,
+				ECB1EE7C243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift in Sources */,
+				ECB1EE59243F6E75002F20C5 /* HomeVC.swift in Sources */,
+				ECB1EE61243F6F57002F20C5 /* Constant.swift in Sources */,
+				ECB1EE67243F6FE6002F20C5 /* UIImageView.swift in Sources */,
+				ECB1EE7E243F755B002F20C5 /* AuthenticationCoordinator.swift in Sources */,
+				ECB1EE73243F702A002F20C5 /* Interactor.swift in Sources */,
+				ECB1EE81243F7652002F20C5 /* ForgotPasswordVC.swift in Sources */,
+				ECB1EE75243F702A002F20C5 /* DismissAnimator.swift in Sources */,
+				ECB1EE76243F702A002F20C5 /* PresentAnimator.swift in Sources */,
+				ECB1EE56243F6E0E002F20C5 /* UIViewController.swift in Sources */,
+				ECB1EE5F243F6F3A002F20C5 /* Connectivity.swift in Sources */,
+				ECB1EE72243F702A002F20C5 /* CustomPresentationController.swift in Sources */,
 				EC1E1B63243E7730003B1202 /* AppDelegate.swift in Sources */,
+				ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */,
 				EC1E1B65243E7730003B1202 /* SceneDelegate.swift in Sources */,
+				ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */,
+				ECB1EE69243F7011002F20C5 /* Date.swift in Sources */,
+				ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */,
+				ECB1EE74243F702A002F20C5 /* VisualEffectView.swift in Sources */,
+				ECB1EE6B243F7019002F20C5 /* Decodable+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,14 +811,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC1E1B68243E7730003B1202 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC1E1B69243E7730003B1202 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC1E1B6D243E7734003B1202 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
