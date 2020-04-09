@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,7 @@
 		ECB1EE48243F17ED002F20C5 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE35243F17ED002F20C5 /* Poppins-SemiBold.ttf */; };
 		ECB1EE49243F17ED002F20C5 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE36243F17ED002F20C5 /* Poppins-Italic.ttf */; };
 		ECB1EE4A243F17ED002F20C5 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE37243F17ED002F20C5 /* Poppins-MediumItalic.ttf */; };
+		ECB1EE4C243F61E0002F20C5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */; };
 		ED30BD3C6892DFC3DE81F9EE /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6AF7F7EAD7E9E4369CECC /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,7 @@
 		ECB1EE35243F17ED002F20C5 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		ECB1EE36243F17ED002F20C5 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		ECB1EE37243F17ED002F20C5 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE88CB8815FE237A74688586 /* Pods_BLOCK_OFFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLOCK_OFFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				EC1E1B62243E7730003B1202 /* AppDelegate.swift */,
+				ECB1EE4B243F61E0002F20C5 /* AppCoordinator.swift */,
 				EC1E1B64243E7730003B1202 /* SceneDelegate.swift */,
 				EC1E1B68243E7730003B1202 /* Main.storyboard */,
 			);
@@ -284,6 +287,7 @@
 				EC1E1B5C243E7730003B1202 /* Frameworks */,
 				EC1E1B5D243E7730003B1202 /* Resources */,
 				580B7DEB74115D8B2323E501 /* [CP] Embed Pods Frameworks */,
+				D5E12C56D3343F207C2E6A65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,6 +306,7 @@
 				EC1E1B71243E7734003B1202 /* Sources */,
 				EC1E1B72243E7734003B1202 /* Frameworks */,
 				EC1E1B73243E7734003B1202 /* Resources */,
+				AF31A69A22A13F68BE2BB2BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,6 +327,7 @@
 				EC1E1B7D243E7734003B1202 /* Frameworks */,
 				EC1E1B7E243E7734003B1202 /* Resources */,
 				E9477FE3AEC12F9CE99BCCDC /* [CP] Embed Pods Frameworks */,
+				A85321720C15530395BCB448 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,6 +489,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A85321720C15530395BCB448 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF31A69A22A13F68BE2BB2BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFFTests/Pods-BLOCK OFFTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFFTests/Pods-BLOCK OFFTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFFTests/Pods-BLOCK OFFTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CEB3CEF6A2529C3C93C9FFFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,6 +543,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E12C56D3343F207C2E6A65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFF/Pods-BLOCK OFF-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFF/Pods-BLOCK OFF-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BLOCK OFF/Pods-BLOCK OFF-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9477FE3AEC12F9CE99BCCDC /* [CP] Embed Pods Frameworks */ = {
@@ -529,6 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB1EE4C243F61E0002F20C5 /* AppCoordinator.swift in Sources */,
 				EC1E1B67243E7730003B1202 /* ViewController.swift in Sources */,
 				EC1E1B63243E7730003B1202 /* AppDelegate.swift in Sources */,
 				EC1E1B65243E7730003B1202 /* SceneDelegate.swift in Sources */,
@@ -744,7 +802,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB9D2D424CB05D784D6ECBE4 /* Pods-BLOCK OFFTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3WASUX7SL;
@@ -767,7 +825,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E11ACFB77AD800E0ECE34DD /* Pods-BLOCK OFFTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3WASUX7SL;
@@ -790,7 +848,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3WASUX7SL;
 				INFOPLIST_FILE = "BLOCK OFFUITests/Info.plist";
@@ -811,7 +869,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D94067995F86A97E25429BBC /* Pods-BLOCK OFF-BLOCK OFFUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3WASUX7SL;
 				INFOPLIST_FILE = "BLOCK OFFUITests/Info.plist";

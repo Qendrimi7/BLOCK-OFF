@@ -324,7 +324,7 @@ send you a link to reset your password</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gr-56-gUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-910" y="836"/>
+            <point key="canvasLocation" x="-1617" y="836"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hj1-fQ-sM7">
@@ -508,7 +508,7 @@ send you a link to reset your password</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3or-y2-hdl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1418.840579710145" y="835.71428571428567"/>
+            <point key="canvasLocation" x="1159" y="836"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o3L-2B-RbK">
@@ -527,7 +527,7 @@ send you a link to reset your password</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CsI-sO-ETV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1699" y="836"/>
+            <point key="canvasLocation" x="-894" y="836"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XQ7-Oj-lNp">
@@ -546,7 +546,7 @@ send you a link to reset your password</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKX-mu-110" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="508.69565217391306" y="835.71428571428567"/>
+            <point key="canvasLocation" x="501" y="836"/>
         </scene>
     </scenes>
     <resources>
