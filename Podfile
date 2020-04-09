@@ -15,6 +15,8 @@ def default_pods
   pod 'SVProgressHUD'
   pod 'SDWebImage'
   pod 'Firebase'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
   
 end
 

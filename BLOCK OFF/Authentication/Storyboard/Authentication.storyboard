@@ -142,6 +142,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="loginAction:" destination="MPI-Mk-Anq" eventType="touchUpInside" id="uyf-3U-XNv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5e-DL-g8N">
                                 <rect key="frame" x="149.5" y="577" width="115" height="18"/>
@@ -194,6 +197,11 @@
                         <viewLayoutGuide key="safeArea" id="HAl-pU-kWV"/>
                     </view>
                     <navigationItem key="navigationItem" id="iVl-18-Hca"/>
+                    <connections>
+                        <outlet property="loginButton" destination="VVK-lh-m5w" id="054-tN-4ji"/>
+                        <outlet property="passwordTextField" destination="3Df-zr-wjj" id="13Y-OB-Z2k"/>
+                        <outlet property="usernameTextField" destination="8cw-ZU-q4a" id="SbH-xl-9dy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MXS-bk-xvg" sceneMemberID="firstResponder"/>
             </objects>

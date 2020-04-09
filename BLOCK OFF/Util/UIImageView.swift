@@ -3,7 +3,7 @@
 //  FoursquareApp
 //
 //  Created by Qendrim Mjeku on 11/27/19.
-//  Copyright © 2019 Qëndrim Mjeku. All rights reserved.
+//  Copyright © 2020 Qëndrim Mjeku. All rights reserved.
 //
 
 import UIKit

@@ -8,5 +8,7 @@
 
 import Foundation
 
+private(set) var baseUrl = ""
+
 private(set) var googleClientId = ""
 private(set) var googleServerClientId = ""

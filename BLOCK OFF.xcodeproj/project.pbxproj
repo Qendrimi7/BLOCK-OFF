@@ -55,6 +55,13 @@
 		ECB1EE7E243F755B002F20C5 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE7D243F755B002F20C5 /* AuthenticationCoordinator.swift */; };
 		ECB1EE81243F7652002F20C5 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */; };
 		ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */; };
+		ECB1EE87243F9FFE002F20C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE86243F9FFD002F20C5 /* GoogleService-Info.plist */; };
+		ECB1EE8B243FA21C002F20C5 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE88243FA21B002F20C5 /* AuthRouter.swift */; };
+		ECB1EE8C243FA21C002F20C5 /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */; };
+		ECB1EE8D243FA21C002F20C5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE8A243FA21C002F20C5 /* AuthService.swift */; };
+		ECB1EE91243FA8DE002F20C5 /* AuthenticationRegisterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */; };
+		ECB1EE93243FB273002F20C5 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE92243FB273002F20C5 /* LoginResponse.swift */; };
+		ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */; };
 		ED30BD3C6892DFC3DE81F9EE /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6AF7F7EAD7E9E4369CECC /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +143,13 @@
 		ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		ECB1EE85243F812F002F20C5 /* BLOCK OFF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BLOCK OFF.entitlements"; sourceTree = "<group>"; };
+		ECB1EE86243F9FFD002F20C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECB1EE88243FA21B002F20C5 /* AuthRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
+		ECB1EE8A243FA21C002F20C5 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRegisterData.swift; sourceTree = "<group>"; };
+		ECB1EE92243FB273002F20C5 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE88CB8815FE237A74688586 /* Pods_BLOCK_OFFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLOCK_OFFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -224,6 +238,7 @@
 				EC1E1B95243E7E60003B1202 /* Util */,
 				EC1E1B94243E7873003B1202 /* Resources */,
 				EC1E1B70243E7734003B1202 /* Info.plist */,
+				ECB1EE86243F9FFD002F20C5 /* GoogleService-Info.plist */,
 			);
 			path = "BLOCK OFF";
 			sourceTree = "<group>";
@@ -338,6 +353,9 @@
 		ECB1EE4E243F6B36002F20C5 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */,
+				ECB1EE8A243FA21C002F20C5 /* AuthService.swift */,
+				ECB1EE88243FA21B002F20C5 /* AuthRouter.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -346,6 +364,8 @@
 			isa = PBXGroup;
 			children = (
 				ECB1EE53243F6DC2002F20C5 /* LoginVC.swift */,
+				ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */,
+				ECB1EE92243FB273002F20C5 /* LoginResponse.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -440,6 +460,7 @@
 			isa = PBXGroup;
 			children = (
 				ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */,
+				ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -575,6 +596,7 @@
 				ECB1EE3F243F17ED002F20C5 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				ECB1EE45243F17ED002F20C5 /* Poppins-Bold.ttf in Resources */,
 				ECB1EE39243F17ED002F20C5 /* Poppins-ThinItalic.ttf in Resources */,
+				ECB1EE87243F9FFE002F20C5 /* GoogleService-Info.plist in Resources */,
 				ECB1EE3D243F17ED002F20C5 /* Poppins-Medium.ttf in Resources */,
 				EC1E1B6C243E7734003B1202 /* Assets.xcassets in Resources */,
 				ECB1EE5D243F6EDC002F20C5 /* Home.storyboard in Resources */,
@@ -757,22 +779,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECB1EE63243F6F8A002F20C5 /* UIView.swift in Sources */,
+				ECB1EE8C243FA21C002F20C5 /* AuthenticationProtocol.swift in Sources */,
 				ECB1EE4C243F61E0002F20C5 /* AppCoordinator.swift in Sources */,
 				ECB1EE7C243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift in Sources */,
 				ECB1EE59243F6E75002F20C5 /* HomeVC.swift in Sources */,
 				ECB1EE61243F6F57002F20C5 /* Constant.swift in Sources */,
+				ECB1EE93243FB273002F20C5 /* LoginResponse.swift in Sources */,
 				ECB1EE67243F6FE6002F20C5 /* UIImageView.swift in Sources */,
+				ECB1EE8D243FA21C002F20C5 /* AuthService.swift in Sources */,
 				ECB1EE7E243F755B002F20C5 /* AuthenticationCoordinator.swift in Sources */,
 				ECB1EE73243F702A002F20C5 /* Interactor.swift in Sources */,
 				ECB1EE81243F7652002F20C5 /* ForgotPasswordVC.swift in Sources */,
 				ECB1EE75243F702A002F20C5 /* DismissAnimator.swift in Sources */,
+				ECB1EE91243FA8DE002F20C5 /* AuthenticationRegisterData.swift in Sources */,
 				ECB1EE76243F702A002F20C5 /* PresentAnimator.swift in Sources */,
 				ECB1EE56243F6E0E002F20C5 /* UIViewController.swift in Sources */,
 				ECB1EE5F243F6F3A002F20C5 /* Connectivity.swift in Sources */,
 				ECB1EE72243F702A002F20C5 /* CustomPresentationController.swift in Sources */,
 				EC1E1B63243E7730003B1202 /* AppDelegate.swift in Sources */,
 				ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */,
+				ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */,
 				EC1E1B65243E7730003B1202 /* SceneDelegate.swift in Sources */,
+				ECB1EE8B243FA21C002F20C5 /* AuthRouter.swift in Sources */,
 				ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */,
 				ECB1EE69243F7011002F20C5 /* Date.swift in Sources */,
 				ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */,
