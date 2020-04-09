@@ -32,7 +32,7 @@ class AuthService: AuthenticationProtocol {
                 withEmail: email,
                 password: password
             ) { authResult, error in
-            
+                
                 if error != nil {
                     guard let errorDescription = error?.localizedDescription else { return }
                     observer.onNext(.error(errorDescription))
@@ -45,7 +45,7 @@ class AuthService: AuthenticationProtocol {
         }
     }
     
-    func register(userData: AuthenticationRegisterData) -> Observable<AutenticationStatus> {
+    static func register(userData: AuthenticationRegisterData) -> Observable<AutenticationStatus> {
         
         return Observable.create { observer in
             

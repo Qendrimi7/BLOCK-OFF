@@ -62,6 +62,7 @@
 		ECB1EE91243FA8DE002F20C5 /* AuthenticationRegisterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */; };
 		ECB1EE93243FB273002F20C5 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE92243FB273002F20C5 /* LoginResponse.swift */; };
 		ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */; };
+		ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */; };
 		ED30BD3C6892DFC3DE81F9EE /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6AF7F7EAD7E9E4369CECC /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -150,6 +151,7 @@
 		ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRegisterData.swift; sourceTree = "<group>"; };
 		ECB1EE92243FB273002F20C5 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE88CB8815FE237A74688586 /* Pods_BLOCK_OFFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLOCK_OFFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -460,6 +462,7 @@
 			isa = PBXGroup;
 			children = (
 				ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */,
+				ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */,
 				ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */,
 			);
 			path = Register;
@@ -804,6 +807,7 @@
 				ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */,
 				ECB1EE69243F7011002F20C5 /* Date.swift in Sources */,
 				ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */,
+				ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */,
 				ECB1EE74243F702A002F20C5 /* VisualEffectView.swift in Sources */,
 				ECB1EE6B243F7019002F20C5 /* Decodable+.swift in Sources */,
 			);

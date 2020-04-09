@@ -11,7 +11,7 @@ import RxSwift
 
 protocol AuthenticationProtocol {
     static func login(email: String, password: String) -> Observable<AutenticationStatus>
-    func register(userData: AuthenticationRegisterData) -> Observable<AutenticationStatus>
+    static func register(userData: AuthenticationRegisterData) -> Observable<AutenticationStatus>
 }
 
 enum AutenticationStatus {

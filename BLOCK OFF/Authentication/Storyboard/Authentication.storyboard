@@ -491,6 +491,9 @@ send you a link to reset your password</string>
                                         <real key="value" value="22.5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="registerAction:" destination="zbc-SA-rKb" eventType="touchUpInside" id="6Sn-Ru-S0Y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -514,6 +517,13 @@ send you a link to reset your password</string>
                         <viewLayoutGuide key="safeArea" id="K5E-X5-PaZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="0M4-NG-CGP"/>
+                    <connections>
+                        <outlet property="companyTextField" destination="gMw-cu-8ss" id="Sxe-Tq-WqJ"/>
+                        <outlet property="emailTextField" destination="SIB-iP-VWI" id="KcV-Nq-Ood"/>
+                        <outlet property="nameTextField" destination="qrr-8n-LH7" id="Kvs-Ah-h6x"/>
+                        <outlet property="passwordTextField" destination="XWn-Oo-KwY" id="E3U-tH-jwg"/>
+                        <outlet property="registerButton" destination="2wX-bI-r23" id="U38-Al-gbo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9V6-6x-a1K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

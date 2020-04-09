@@ -8,7 +8,7 @@
 
 import RxSwift
 import RxCocoa
-import GoogleSignIn
+import FirebaseAuth
 
 class AppCoordinator {
     
@@ -21,16 +21,11 @@ class AppCoordinator {
         customizeNavigation()
         
         //Check if user is logged in
-        if let hasPreviousSignIn = GIDSignIn.sharedInstance()?.hasPreviousSignIn {
-            if hasPreviousSignIn(){
-                presentApp()
-                UIApplication.shared.statusBarStyle = .default
-            }else{
-                self.presentLoginVC()
-                UIApplication.shared.statusBarStyle = .default
-            }
+        if Auth.auth().currentUser != nil {
+            presentApp()
+            UIApplication.shared.statusBarStyle = .default
         } else {
-            
+            self.presentLoginVC()
             UIApplication.shared.statusBarStyle = .default
         }
     }
