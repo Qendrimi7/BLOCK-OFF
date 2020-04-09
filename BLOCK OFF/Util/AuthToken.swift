@@ -7,14 +7,19 @@
 //
 
 import Foundation
-import GoogleSignIn
+import FirebaseAuth
 
 struct AuthToken {
     /**
      * @brief Logout
      */
     static func logOut() {
-        GIDSignIn.sharedInstance().signOut()
-        AppCoordinator().setupAppNavigation()
+       let firebaseAuth = Auth.auth()
+        do {
+          try firebaseAuth.signOut()
+          AppCoordinator().setupAppNavigation()
+        } catch let signOutError as NSError {
+          print ("Error signing out: %@", signOutError)
+        }
     }
 }

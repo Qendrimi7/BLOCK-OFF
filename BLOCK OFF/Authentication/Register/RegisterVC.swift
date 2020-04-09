@@ -81,6 +81,7 @@ class RegisterVC: UIViewController {
     }
     
     @IBAction func registerAction(_ sender: Any) {
+        self.showProgress()
         viewModel.register(
             with: nameTextField.text!,
             company: companyTextField.text!,
@@ -89,9 +90,10 @@ class RegisterVC: UIViewController {
         ).retry(2)
         .subscribe(onNext: { (authenticationStatus) in
             switch authenticationStatus {
-            case .successLogin( _):
+            case .successRegister( _):
                 AppCoordinator().setupAppNavigation()
             case .error(let error):
+                self.hideProgress()
                 self.showErrorHUD(message: error)
             default: break
             }
