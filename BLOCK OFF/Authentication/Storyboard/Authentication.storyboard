@@ -83,7 +83,7 @@
                                             <constraint firstAttribute="height" constant="21" id="l4l-wL-HAC"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-40-0Wn">
                                         <rect key="frame" x="306" y="13" width="24" height="24"/>
@@ -417,7 +417,7 @@ send you a link to reset your password</string>
                                             <constraint firstAttribute="height" constant="21" id="4Vl-s7-umD"/>
                                         </constraints>
                                         <attributedString key="attributedText"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zd-eJ-2Yx">
                                         <rect key="frame" x="306" y="13" width="24" height="24"/>
