@@ -6,6 +6,8 @@ target 'BLOCK OFF' do
   use_frameworks!
 
   # Pods for BLOCK OFF
+  pod 'IQKeyboardManagerSwift'
+  pod 'Firebase'
 
   target 'BLOCK OFFTests' do
     inherit! :search_paths
