@@ -18,6 +18,10 @@
 		EC93A7CF2441DEAF0096835F /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7CE2441DEAF0096835F /* Home+TableView.swift */; };
 		EC93A7D12441F2520096835F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7D02441F2520096835F /* HomeViewModel.swift */; };
 		EC93A7D32441F28D0096835F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7D22441F28D0096835F /* HomeModel.swift */; };
+		EC93A7D7244206320096835F /* NewAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7D6244206320096835F /* NewAddressVC.swift */; };
+		EC93A7DB24421ED70096835F /* ConfirmBolckOffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7DA24421ED70096835F /* ConfirmBolckOffVC.swift */; };
+		EC93A7DE24421F9F0096835F /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7DC24421F9F0096835F /* HomeCoordinator.swift */; };
+		EC93A7DF24421F9F0096835F /* HomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7DD24421F9F0096835F /* HomeCoordinatorProtocol.swift */; };
 		ECB1EE38243F17ED002F20C5 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */; };
 		ECB1EE39243F17ED002F20C5 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */; };
 		ECB1EE3A243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */; };
@@ -110,6 +114,10 @@
 		EC93A7CE2441DEAF0096835F /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
 		EC93A7D02441F2520096835F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EC93A7D22441F28D0096835F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		EC93A7D6244206320096835F /* NewAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAddressVC.swift; sourceTree = "<group>"; };
+		EC93A7DA24421ED70096835F /* ConfirmBolckOffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBolckOffVC.swift; sourceTree = "<group>"; };
+		EC93A7DC24421F9F0096835F /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		EC93A7DD24421F9F0096835F /* HomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -245,6 +253,8 @@
 				EC1E1B93243E7862003B1202 /* Launch */,
 				ECB1EE4D243F6AF4002F20C5 /* Authentication */,
 				ECB1EE57243F6E62002F20C5 /* Home */,
+				EC93A7D4244205F90096835F /* New Address */,
+				EC93A7D824421EAA0096835F /* Confirm Block Off */,
 				EC1E1B95243E7E60003B1202 /* Util */,
 				EC1E1B94243E7873003B1202 /* Resources */,
 				EC1E1B70243E7734003B1202 /* Info.plist */,
@@ -320,6 +330,46 @@
 				ECB1EE24243F17ED002F20C5 /* Poppins */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EC93A7D4244205F90096835F /* New Address */ = {
+			isa = PBXGroup;
+			children = (
+				EC93A7E02442202D0096835F /* Coordinators */,
+				EC93A7D5244206110096835F /* List */,
+			);
+			path = "New Address";
+			sourceTree = "<group>";
+		};
+		EC93A7D5244206110096835F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EC93A7D6244206320096835F /* NewAddressVC.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		EC93A7D824421EAA0096835F /* Confirm Block Off */ = {
+			isa = PBXGroup;
+			children = (
+				EC93A7D924421EBB0096835F /* List */,
+			);
+			path = "Confirm Block Off";
+			sourceTree = "<group>";
+		};
+		EC93A7D924421EBB0096835F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EC93A7DA24421ED70096835F /* ConfirmBolckOffVC.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		EC93A7E02442202D0096835F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		ECB1EE24243F17ED002F20C5 /* Poppins */ = {
@@ -433,6 +483,8 @@
 		ECB1EE77243F706C002F20C5 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				EC93A7DD24421F9F0096835F /* HomeCoordinatorProtocol.swift */,
+				EC93A7DC24421F9F0096835F /* HomeCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -806,7 +858,9 @@
 				ECB1EE67243F6FE6002F20C5 /* UIImageView.swift in Sources */,
 				ECB1EE8D243FA21C002F20C5 /* AuthService.swift in Sources */,
 				ECB1EE7E243F755B002F20C5 /* AuthenticationCoordinator.swift in Sources */,
+				EC93A7DE24421F9F0096835F /* HomeCoordinator.swift in Sources */,
 				ECB1EE73243F702A002F20C5 /* Interactor.swift in Sources */,
+				EC93A7D7244206320096835F /* NewAddressVC.swift in Sources */,
 				ECB1EE81243F7652002F20C5 /* ForgotPasswordVC.swift in Sources */,
 				ECB1EE75243F702A002F20C5 /* DismissAnimator.swift in Sources */,
 				ECB1EE91243FA8DE002F20C5 /* AuthenticationRegisterData.swift in Sources */,
@@ -820,12 +874,14 @@
 				EC1E1B65243E7730003B1202 /* SceneDelegate.swift in Sources */,
 				ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */,
 				ECB1EE69243F7011002F20C5 /* Date.swift in Sources */,
+				EC93A7DB24421ED70096835F /* ConfirmBolckOffVC.swift in Sources */,
 				ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */,
 				ECB1EE9A2441D53C002F20C5 /* BarricadeCell.swift in Sources */,
 				ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */,
 				ECB1EE74243F702A002F20C5 /* VisualEffectView.swift in Sources */,
 				EC93A7D12441F2520096835F /* HomeViewModel.swift in Sources */,
 				ECB1EE6B243F7019002F20C5 /* Decodable+.swift in Sources */,
+				EC93A7DF24421F9F0096835F /* HomeCoordinatorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -47,8 +47,8 @@ extension UIViewController {
         return storyboard.instantiateViewController(withIdentifier: identifier) as! T
     }
 
-    func setupBackButton() {
-        let customBackButton = UIBarButtonItem(title: " ", style: .plain, target: nil, action: nil)
+    func setupBackButton(title: String = " ") {
+        let customBackButton = UIBarButtonItem(title: title, style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem = customBackButton
     }
     

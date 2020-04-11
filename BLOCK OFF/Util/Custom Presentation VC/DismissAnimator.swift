@@ -11,7 +11,7 @@ import UIKit
 class DismissAnimator : NSObject,  UIViewControllerAnimatedTransitioning {
 	
 	private var dismissFinalFrame = CGRect.zero
-    private var viewHeight        = CGFloat(350)
+    private var viewHeight        = CGFloat(220)
 	
 	/**
 	Init method

@@ -11,7 +11,8 @@ import UIKit
 class HomeVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-        
+    
+    var coordinator: HomeCoordinatorProtocol!
     var viewModel: HomeViewModel!
     var items: [HomeModel] = []
 
@@ -22,10 +23,13 @@ class HomeVC: UIViewController {
     
     private func setupViewDidLoad() {
         title = "Home"
-        setupBarButtonItem()
         setupViewModel()
         setupTableView()
         items = viewModel.getData()
+        setupBarButtonItem()
+        setupBackButton(title: "back")
+        guard let navigationController = navigationController else { return }
+        coordinator = HomeCoordinator(presenter: navigationController)
     }
     
     private func setupViewModel() {

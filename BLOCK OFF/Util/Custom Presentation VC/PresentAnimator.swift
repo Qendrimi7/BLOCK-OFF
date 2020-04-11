@@ -16,7 +16,7 @@ class PresentAnimator : NSObject, UIViewControllerAnimatedTransitioning {
     
     private var presentInitialFrame     = CGRect.zero
     private var presentFinalFrame       = CGRect.zero
-    private var viewHeight              = CGFloat(450)
+    private var viewHeight              = CGFloat(220)
     
     //MARK:- Because I don't show corner radius in bottom
     private var minusViewHeight         = CGFloat(5)
