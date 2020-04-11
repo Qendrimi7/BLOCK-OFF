@@ -20,6 +20,7 @@ def default_pods
   pod 'GooglePlacePicker'
   pod 'GooglePlaces'
   pod 'GoogleMaps'
+  pod 'DeviceKit', '~> 2.0'
   
 end
 

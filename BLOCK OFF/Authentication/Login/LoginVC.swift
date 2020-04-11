@@ -46,6 +46,7 @@ class LoginVC: UIViewController {
         coordinator = AuthenticationCoordinator(presenter: navigationController)
         enableLogin(enable: false)
         setupViewModel()
+        setupBackButton(title: "back")
     }
     
     // MARK: - setup view model

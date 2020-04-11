@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wET-f4-ynv">
-                                <rect key="frame" x="38" y="308" width="338" height="50"/>
+                                <rect key="frame" x="38" y="278" width="338" height="50"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email_icon" translatesAutoresizingMaskIntoConstraints="NO" id="MAg-l0-f7z">
                                         <rect key="frame" x="20" y="18.5" width="17.5" height="13"/>
@@ -68,7 +68,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6z-vg-1d4">
-                                <rect key="frame" x="38" y="367" width="338" height="50"/>
+                                <rect key="frame" x="38" y="337" width="338" height="50"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock_icon" translatesAutoresizingMaskIntoConstraints="NO" id="YwR-3P-8EJ">
                                         <rect key="frame" x="20" y="18.5" width="17.5" height="13"/>
@@ -107,7 +107,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fDh-NT-m9D">
-                                <rect key="frame" x="38" y="425" width="338" height="18"/>
+                                <rect key="frame" x="38" y="395" width="338" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="hu3-9O-rUW"/>
                                 </constraints>
@@ -126,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVK-lh-m5w">
-                                <rect key="frame" x="38" y="484" width="338" height="50"/>
+                                <rect key="frame" x="38" y="448" width="338" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="tkq-8V-azh"/>
@@ -147,7 +147,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5e-DL-g8N">
-                                <rect key="frame" x="149.5" y="577" width="115" height="18"/>
+                                <rect key="frame" x="149.5" y="531" width="115" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="jdC-PD-5wJ"/>
                                 </constraints>
@@ -181,7 +181,7 @@
                             <constraint firstItem="b6z-vg-1d4" firstAttribute="top" secondItem="wET-f4-ynv" secondAttribute="bottom" constant="9" id="RMv-Og-OdH"/>
                             <constraint firstItem="sup-T7-w8H" firstAttribute="leading" secondItem="HAl-pU-kWV" secondAttribute="leading" id="SKh-Xy-7mL"/>
                             <constraint firstAttribute="bottom" secondItem="sup-T7-w8H" secondAttribute="bottom" constant="-70" id="V4F-dN-L0v"/>
-                            <constraint firstItem="wET-f4-ynv" firstAttribute="top" secondItem="dBL-ho-aKj" secondAttribute="bottom" constant="107" id="XIP-RT-YwU"/>
+                            <constraint firstItem="wET-f4-ynv" firstAttribute="top" secondItem="dBL-ho-aKj" secondAttribute="bottom" constant="77" id="XIP-RT-YwU"/>
                             <constraint firstItem="wET-f4-ynv" firstAttribute="leading" secondItem="HAl-pU-kWV" secondAttribute="leading" constant="38" id="XgI-kt-4rL"/>
                             <constraint firstItem="j5e-DL-g8N" firstAttribute="centerX" secondItem="VVK-lh-m5w" secondAttribute="centerX" id="aLP-EM-qmZ"/>
                             <constraint firstItem="dBL-ho-aKj" firstAttribute="centerX" secondItem="EYv-Nm-hib" secondAttribute="centerX" id="agF-Jq-q0C"/>
@@ -190,8 +190,8 @@
                             <constraint firstItem="fDh-NT-m9D" firstAttribute="trailing" secondItem="b6z-vg-1d4" secondAttribute="trailing" id="ed2-7g-Ulb"/>
                             <constraint firstItem="HAl-pU-kWV" firstAttribute="trailing" secondItem="wET-f4-ynv" secondAttribute="trailing" constant="38" id="fkL-SH-YZx"/>
                             <constraint firstItem="dBL-ho-aKj" firstAttribute="top" secondItem="EYv-Nm-hib" secondAttribute="bottom" constant="9.0999999999999996" id="hFX-q7-kvB"/>
-                            <constraint firstItem="j5e-DL-g8N" firstAttribute="top" secondItem="VVK-lh-m5w" secondAttribute="bottom" constant="43" id="he5-XM-I2G"/>
-                            <constraint firstItem="VVK-lh-m5w" firstAttribute="top" secondItem="fDh-NT-m9D" secondAttribute="bottom" constant="41" id="ptZ-ad-Pwx"/>
+                            <constraint firstItem="j5e-DL-g8N" firstAttribute="top" secondItem="VVK-lh-m5w" secondAttribute="bottom" constant="33" id="he5-XM-I2G"/>
+                            <constraint firstItem="VVK-lh-m5w" firstAttribute="top" secondItem="fDh-NT-m9D" secondAttribute="bottom" constant="35" id="ptZ-ad-Pwx"/>
                             <constraint firstItem="fDh-NT-m9D" firstAttribute="top" secondItem="b6z-vg-1d4" secondAttribute="bottom" constant="8" id="zT4-m6-irG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HAl-pU-kWV"/>
@@ -216,14 +216,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="undraw_forgot_password" translatesAutoresizingMaskIntoConstraints="NO" id="6Hh-3p-veI">
-                                <rect key="frame" x="78" y="74" width="258" height="191"/>
+                                <rect key="frame" x="88" y="74" width="238" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="190.80000000000001" id="CJ0-xt-SnA"/>
-                                    <constraint firstAttribute="width" constant="257.83999999999997" id="VWI-m5-ofO"/>
+                                    <constraint firstAttribute="height" constant="170" id="CJ0-xt-SnA"/>
+                                    <constraint firstAttribute="width" constant="237.84" id="VWI-m5-ofO"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noi-rs-6yn">
-                                <rect key="frame" x="111.5" y="315" width="191" height="23.5"/>
+                                <rect key="frame" x="111.5" y="294" width="191" height="23.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23.5" id="SXF-zE-4t8"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="191" id="bnQ-DQ-IDC"/>
@@ -240,7 +240,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6U-yA-OKK">
-                                <rect key="frame" x="78" y="353.5" width="258" height="40"/>
+                                <rect key="frame" x="88" y="332.5" width="238" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="jYv-wM-ar6"/>
                                 </constraints>
@@ -258,7 +258,7 @@ send you a link to reset your password</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siF-we-alR">
-                                <rect key="frame" x="38" y="449.5" width="338" height="50"/>
+                                <rect key="frame" x="38" y="428.5" width="338" height="50"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email_icon" translatesAutoresizingMaskIntoConstraints="NO" id="buP-Gm-tFz">
                                         <rect key="frame" x="20" y="18.5" width="17.5" height="13"/>
@@ -287,7 +287,7 @@ send you a link to reset your password</string>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h70-Og-fbD">
-                                <rect key="frame" x="38" y="509.5" width="338" height="50"/>
+                                <rect key="frame" x="38" y="488.5" width="338" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="lp4-bM-vdm"/>

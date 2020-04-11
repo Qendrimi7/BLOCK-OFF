@@ -477,6 +477,9 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                     <size key="freeformSize" width="414" height="220"/>
+                    <connections>
+                        <outlet property="submitButtonHeightConstraint" destination="Hm5-3X-7jz" id="AIU-xB-Mmf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWY-T1-Mvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
