@@ -15,6 +15,9 @@
 		EC1E1B6F243E7734003B1202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E1B6D243E7734003B1202 /* LaunchScreen.storyboard */; };
 		EC1E1B7A243E7734003B1202 /* BLOCK_OFFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E1B79243E7734003B1202 /* BLOCK_OFFTests.swift */; };
 		EC1E1B85243E7734003B1202 /* BLOCK_OFFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E1B84243E7734003B1202 /* BLOCK_OFFUITests.swift */; };
+		EC93A7CF2441DEAF0096835F /* Home+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7CE2441DEAF0096835F /* Home+TableView.swift */; };
+		EC93A7D12441F2520096835F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7D02441F2520096835F /* HomeViewModel.swift */; };
+		EC93A7D32441F28D0096835F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7D22441F28D0096835F /* HomeModel.swift */; };
 		ECB1EE38243F17ED002F20C5 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */; };
 		ECB1EE39243F17ED002F20C5 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */; };
 		ECB1EE3A243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */; };
@@ -62,8 +65,8 @@
 		ECB1EE93243FB273002F20C5 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE92243FB273002F20C5 /* LoginResponse.swift */; };
 		ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */; };
 		ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */; };
-		ECB1EE9A2441D53C002F20C5 /* BarricadesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE982441D53C002F20C5 /* BarricadesCell.swift */; };
-		ECB1EE9B2441D53C002F20C5 /* BarricadesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE992441D53C002F20C5 /* BarricadesCell.xib */; };
+		ECB1EE9A2441D53C002F20C5 /* BarricadeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE982441D53C002F20C5 /* BarricadeCell.swift */; };
+		ECB1EE9B2441D53C002F20C5 /* BarricadeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE992441D53C002F20C5 /* BarricadeCell.xib */; };
 		ED30BD3C6892DFC3DE81F9EE /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6AF7F7EAD7E9E4369CECC /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +107,9 @@
 		EC1E1B80243E7734003B1202 /* BLOCK OFFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLOCK OFFUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1E1B84243E7734003B1202 /* BLOCK_OFFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLOCK_OFFUITests.swift; sourceTree = "<group>"; };
 		EC1E1B86243E7734003B1202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC93A7CE2441DEAF0096835F /* Home+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+TableView.swift"; sourceTree = "<group>"; };
+		EC93A7D02441F2520096835F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EC93A7D22441F28D0096835F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -152,8 +158,8 @@
 		ECB1EE92243FB273002F20C5 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
-		ECB1EE982441D53C002F20C5 /* BarricadesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarricadesCell.swift; sourceTree = "<group>"; };
-		ECB1EE992441D53C002F20C5 /* BarricadesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarricadesCell.xib; sourceTree = "<group>"; };
+		ECB1EE982441D53C002F20C5 /* BarricadeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarricadeCell.swift; sourceTree = "<group>"; };
+		ECB1EE992441D53C002F20C5 /* BarricadeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarricadeCell.xib; sourceTree = "<group>"; };
 		ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE88CB8815FE237A74688586 /* Pods_BLOCK_OFFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLOCK_OFFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -397,6 +403,9 @@
 			isa = PBXGroup;
 			children = (
 				ECB1EE58243F6E75002F20C5 /* HomeVC.swift */,
+				EC93A7CE2441DEAF0096835F /* Home+TableView.swift */,
+				EC93A7D02441F2520096835F /* HomeViewModel.swift */,
+				EC93A7D22441F28D0096835F /* HomeModel.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -438,8 +447,8 @@
 		ECB1EE79243F7092002F20C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ECB1EE982441D53C002F20C5 /* BarricadesCell.swift */,
-				ECB1EE992441D53C002F20C5 /* BarricadesCell.xib */,
+				ECB1EE982441D53C002F20C5 /* BarricadeCell.swift */,
+				ECB1EE992441D53C002F20C5 /* BarricadeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -594,7 +603,7 @@
 				ECB1EE46243F17ED002F20C5 /* Poppins-Black.ttf in Resources */,
 				ECB1EE49243F17ED002F20C5 /* Poppins-Italic.ttf in Resources */,
 				ECB1EE40243F17ED002F20C5 /* Poppins-ExtraBold.ttf in Resources */,
-				ECB1EE9B2441D53C002F20C5 /* BarricadesCell.xib in Resources */,
+				ECB1EE9B2441D53C002F20C5 /* BarricadeCell.xib in Resources */,
 				ECB1EE44243F17ED002F20C5 /* Poppins-LightItalic.ttf in Resources */,
 				EC1E1B6F243E7734003B1202 /* LaunchScreen.storyboard in Resources */,
 				ECB1EE3E243F17ED002F20C5 /* Poppins-SemiBoldItalic.ttf in Resources */,
@@ -785,9 +794,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC93A7CF2441DEAF0096835F /* Home+TableView.swift in Sources */,
 				ECB1EE63243F6F8A002F20C5 /* UIView.swift in Sources */,
 				ECB1EE8C243FA21C002F20C5 /* AuthenticationProtocol.swift in Sources */,
 				ECB1EE4C243F61E0002F20C5 /* AppCoordinator.swift in Sources */,
+				EC93A7D32441F28D0096835F /* HomeModel.swift in Sources */,
 				ECB1EE7C243F753E002F20C5 /* AuthenticationCoordinatorProtocol.swift in Sources */,
 				ECB1EE59243F6E75002F20C5 /* HomeVC.swift in Sources */,
 				ECB1EE61243F6F57002F20C5 /* Constant.swift in Sources */,
@@ -810,9 +821,10 @@
 				ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */,
 				ECB1EE69243F7011002F20C5 /* Date.swift in Sources */,
 				ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */,
-				ECB1EE9A2441D53C002F20C5 /* BarricadesCell.swift in Sources */,
+				ECB1EE9A2441D53C002F20C5 /* BarricadeCell.swift in Sources */,
 				ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */,
 				ECB1EE74243F702A002F20C5 /* VisualEffectView.swift in Sources */,
+				EC93A7D12441F2520096835F /* HomeViewModel.swift in Sources */,
 				ECB1EE6B243F7019002F20C5 /* Decodable+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
