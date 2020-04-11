@@ -8,7 +8,6 @@
 
 import Foundation
 
-private(set) var baseUrl = ""
-
 private(set) var googleClientId = ""
 private(set) var googleServerClientId = ""
+private(set) var googleApiKey = "AIzaSyAxcU221ntkt_zvnI9M0TptA4bISdRrwNU"

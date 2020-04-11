@@ -12,12 +12,16 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupViewDidLoad()
     }
     
-    
-    @IBAction func logOutAction(_ sender: Any) {
-        AuthToken.logOut()
+    func setupViewDidLoad() {
+        let logoutBarButtonItem = UIBarButtonItem(title: "Logout", style: .done, target: self, action: #selector(logoutAction))
+        self.navigationItem.rightBarButtonItem  = logoutBarButtonItem
     }
+    
+    @objc func logoutAction(){
+         AuthToken.logOut()
+    }
+    
 }

@@ -9,6 +9,8 @@
 import UIKit
 import IQKeyboardManagerSwift
 import SVProgressHUD
+import GoogleMaps
+import GooglePlaces
 import Firebase
 
 @UIApplicationMain
@@ -22,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
         SVProgressHUD.setDefaultMaskType(.clear)
         SVProgressHUD.setDefaultStyle(.light)
+        GMSServices.provideAPIKey(googleApiKey)
+        GMSPlacesClient.provideAPIKey(googleApiKey)
         FirebaseApp.configure()
         
         return true

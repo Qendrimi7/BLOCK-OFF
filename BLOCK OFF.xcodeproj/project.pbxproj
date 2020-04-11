@@ -56,13 +56,14 @@
 		ECB1EE81243F7652002F20C5 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */; };
 		ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */; };
 		ECB1EE87243F9FFE002F20C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE86243F9FFD002F20C5 /* GoogleService-Info.plist */; };
-		ECB1EE8B243FA21C002F20C5 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE88243FA21B002F20C5 /* AuthRouter.swift */; };
 		ECB1EE8C243FA21C002F20C5 /* AuthenticationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */; };
 		ECB1EE8D243FA21C002F20C5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE8A243FA21C002F20C5 /* AuthService.swift */; };
 		ECB1EE91243FA8DE002F20C5 /* AuthenticationRegisterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */; };
 		ECB1EE93243FB273002F20C5 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE92243FB273002F20C5 /* LoginResponse.swift */; };
 		ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */; };
 		ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */; };
+		ECB1EE9A2441D53C002F20C5 /* BarricadesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB1EE982441D53C002F20C5 /* BarricadesCell.swift */; };
+		ECB1EE9B2441D53C002F20C5 /* BarricadesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE992441D53C002F20C5 /* BarricadesCell.xib */; };
 		ED30BD3C6892DFC3DE81F9EE /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6AF7F7EAD7E9E4369CECC /* Pods_BLOCK_OFF_BLOCK_OFFUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -145,13 +146,14 @@
 		ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		ECB1EE85243F812F002F20C5 /* BLOCK OFF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BLOCK OFF.entitlements"; sourceTree = "<group>"; };
 		ECB1EE86243F9FFD002F20C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		ECB1EE88243FA21B002F20C5 /* AuthRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
 		ECB1EE8A243FA21C002F20C5 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		ECB1EE90243FA8DE002F20C5 /* AuthenticationRegisterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRegisterData.swift; sourceTree = "<group>"; };
 		ECB1EE92243FB273002F20C5 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		ECB1EE94243FB7C8002F20C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		ECB1EE96243FBC53002F20C5 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		ECB1EE982441D53C002F20C5 /* BarricadesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarricadesCell.swift; sourceTree = "<group>"; };
+		ECB1EE992441D53C002F20C5 /* BarricadesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarricadesCell.xib; sourceTree = "<group>"; };
 		ECC48CC96458B110F493C0CD /* Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; path = "Target Support Files/Pods-BLOCK OFF-BLOCK OFFUITests/Pods-BLOCK OFF-BLOCK OFFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE88CB8815FE237A74688586 /* Pods_BLOCK_OFFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLOCK_OFFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -357,7 +359,6 @@
 			children = (
 				ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */,
 				ECB1EE8A243FA21C002F20C5 /* AuthService.swift */,
-				ECB1EE88243FA21B002F20C5 /* AuthRouter.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -437,6 +438,8 @@
 		ECB1EE79243F7092002F20C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ECB1EE982441D53C002F20C5 /* BarricadesCell.swift */,
+				ECB1EE992441D53C002F20C5 /* BarricadesCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				ECB1EE46243F17ED002F20C5 /* Poppins-Black.ttf in Resources */,
 				ECB1EE49243F17ED002F20C5 /* Poppins-Italic.ttf in Resources */,
 				ECB1EE40243F17ED002F20C5 /* Poppins-ExtraBold.ttf in Resources */,
+				ECB1EE9B2441D53C002F20C5 /* BarricadesCell.xib in Resources */,
 				ECB1EE44243F17ED002F20C5 /* Poppins-LightItalic.ttf in Resources */,
 				EC1E1B6F243E7734003B1202 /* LaunchScreen.storyboard in Resources */,
 				ECB1EE3E243F17ED002F20C5 /* Poppins-SemiBoldItalic.ttf in Resources */,
@@ -803,10 +807,10 @@
 				ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */,
 				ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */,
 				EC1E1B65243E7730003B1202 /* SceneDelegate.swift in Sources */,
-				ECB1EE8B243FA21C002F20C5 /* AuthRouter.swift in Sources */,
 				ECB1EE54243F6DC2002F20C5 /* LoginVC.swift in Sources */,
 				ECB1EE69243F7011002F20C5 /* Date.swift in Sources */,
 				ECB1EE65243F6FAD002F20C5 /* AuthToken.swift in Sources */,
+				ECB1EE9A2441D53C002F20C5 /* BarricadesCell.swift in Sources */,
 				ECB1EE97243FBC53002F20C5 /* RegisterViewModel.swift in Sources */,
 				ECB1EE74243F702A002F20C5 /* VisualEffectView.swift in Sources */,
 				ECB1EE6B243F7019002F20C5 /* Decodable+.swift in Sources */,

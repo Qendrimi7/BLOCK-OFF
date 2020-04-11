@@ -17,6 +17,9 @@ def default_pods
   pod 'Firebase'
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'GooglePlacePicker'
+  pod 'GooglePlaces'
+  pod 'GoogleMaps'
   
 end
 
