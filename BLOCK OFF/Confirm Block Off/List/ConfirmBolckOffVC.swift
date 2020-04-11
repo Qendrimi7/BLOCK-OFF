@@ -40,7 +40,7 @@ class ConfirmBolckOffVC: UIViewController {
         if device.isOneOf(groupOfAllowedDevices) {
             submitButtonHeightConstraint.constant = 65
         } else {
-            submitButtonHeightConstraint.constant = 43
+            submitButtonHeightConstraint.constant = 53
         }
     }
 }

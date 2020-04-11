@@ -366,15 +366,14 @@
                                         <rect key="frame" x="124" y="0.0" width="252" height="41"/>
                                         <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwM-Z3-HgG">
-                                        <rect key="frame" x="132" y="13" width="243" height="16"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwM-Z3-HgG">
+                                        <rect key="frame" x="132" y="12.5" width="236" height="16"/>
                                         <attributedString key="attributedText">
                                             <fragment content="2020/02/12 9:00 AM">
                                                 <attributes>
                                                     <color key="NSColor" red="0.62352941176470589" green="0.62352941176470589" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="12" name="Poppins-Regular"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -383,13 +382,18 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="zRE-lD-gia" firstAttribute="top" secondItem="r1W-UD-lv4" secondAttribute="top" id="6AH-Qe-m7H"/>
+                                    <constraint firstItem="vwM-Z3-HgG" firstAttribute="centerY" secondItem="jxB-ze-2jD" secondAttribute="centerY" id="8p9-Qx-rdH"/>
+                                    <constraint firstItem="vwM-Z3-HgG" firstAttribute="bottom" secondItem="jxB-ze-2jD" secondAttribute="bottom" id="D4y-lY-p6Y"/>
                                     <constraint firstItem="zRE-lD-gia" firstAttribute="leading" secondItem="r1W-UD-lv4" secondAttribute="leading" id="ETV-Xi-hBC"/>
                                     <constraint firstAttribute="bottom" secondItem="zRE-lD-gia" secondAttribute="bottom" id="Mrj-HX-422"/>
+                                    <constraint firstItem="vwM-Z3-HgG" firstAttribute="leading" secondItem="zRE-lD-gia" secondAttribute="trailing" constant="8" id="WrU-4f-vg3"/>
                                     <constraint firstItem="BQn-f9-20E" firstAttribute="leading" secondItem="zRE-lD-gia" secondAttribute="trailing" id="gF4-Zl-Pci"/>
                                     <constraint firstAttribute="height" constant="41" id="hh4-hP-jfi"/>
+                                    <constraint firstItem="vwM-Z3-HgG" firstAttribute="top" secondItem="jxB-ze-2jD" secondAttribute="top" id="lUS-Z2-GWq"/>
                                     <constraint firstItem="BQn-f9-20E" firstAttribute="top" secondItem="r1W-UD-lv4" secondAttribute="top" id="oWe-QG-Fq9"/>
                                     <constraint firstAttribute="bottom" secondItem="BQn-f9-20E" secondAttribute="bottom" id="rU3-oy-Ipp"/>
                                     <constraint firstAttribute="trailing" secondItem="BQn-f9-20E" secondAttribute="trailing" id="wab-aQ-Qbz"/>
+                                    <constraint firstAttribute="trailing" secondItem="vwM-Z3-HgG" secondAttribute="trailing" constant="8" id="yZ8-Sh-YyJ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzh-KV-nhm">
@@ -426,15 +430,14 @@
                                         <rect key="frame" x="124" y="0.0" width="252" height="41"/>
                                         <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQj-Mw-Vcq">
-                                        <rect key="frame" x="132" y="13.5" width="227" height="14"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQj-Mw-Vcq">
+                                        <rect key="frame" x="132" y="13.5" width="236" height="14"/>
                                         <attributedString key="attributedText">
                                             <fragment content="2020/02/19 9:00 AM">
                                                 <attributes>
                                                     <color key="NSColor" red="0.62353000000000003" green="0.62353000000000003" blue="0.62353000000000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                     <font key="NSFont" size="12" name="Poppins-Regular"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -443,15 +446,20 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="ocB-mo-fNJ" secondAttribute="bottom" id="5b3-XX-3PC"/>
+                                    <constraint firstItem="sQj-Mw-Vcq" firstAttribute="centerY" secondItem="LVm-LK-XC9" secondAttribute="centerY" id="8Ut-QB-YQT"/>
                                     <constraint firstItem="ocB-mo-fNJ" firstAttribute="top" secondItem="gzh-KV-nhm" secondAttribute="top" id="9Dh-T1-GPx"/>
                                     <constraint firstItem="LVm-LK-XC9" firstAttribute="centerY" secondItem="h1Z-66-rZa" secondAttribute="centerY" id="Bhg-Ns-yd7"/>
+                                    <constraint firstItem="sQj-Mw-Vcq" firstAttribute="top" secondItem="LVm-LK-XC9" secondAttribute="top" id="C6V-fU-yRc"/>
                                     <constraint firstItem="ocB-mo-fNJ" firstAttribute="leading" secondItem="SXR-hs-3Rq" secondAttribute="trailing" id="F02-6j-vo3"/>
+                                    <constraint firstItem="sQj-Mw-Vcq" firstAttribute="bottom" secondItem="LVm-LK-XC9" secondAttribute="bottom" id="Mbg-GO-cEa"/>
+                                    <constraint firstItem="sQj-Mw-Vcq" firstAttribute="leading" secondItem="SXR-hs-3Rq" secondAttribute="trailing" constant="8" id="QPf-eF-bPb"/>
                                     <constraint firstItem="h1Z-66-rZa" firstAttribute="centerY" secondItem="SXR-hs-3Rq" secondAttribute="centerY" id="URr-Jk-Yb0"/>
                                     <constraint firstItem="SXR-hs-3Rq" firstAttribute="leading" secondItem="gzh-KV-nhm" secondAttribute="leading" id="ZTG-pl-dOe"/>
                                     <constraint firstAttribute="bottom" secondItem="SXR-hs-3Rq" secondAttribute="bottom" id="edn-QV-olh"/>
                                     <constraint firstItem="SXR-hs-3Rq" firstAttribute="top" secondItem="gzh-KV-nhm" secondAttribute="top" id="ei7-AD-WCC"/>
                                     <constraint firstAttribute="height" constant="41" id="miR-FM-uSi"/>
                                     <constraint firstItem="h1Z-66-rZa" firstAttribute="leading" secondItem="gzh-KV-nhm" secondAttribute="leading" constant="14" id="re0-tJ-kkd"/>
+                                    <constraint firstAttribute="trailing" secondItem="sQj-Mw-Vcq" secondAttribute="trailing" constant="8" id="sKP-e4-S4N"/>
                                     <constraint firstAttribute="trailing" secondItem="ocB-mo-fNJ" secondAttribute="trailing" id="tmY-1i-aYe"/>
                                     <constraint firstItem="LVm-LK-XC9" firstAttribute="leading" secondItem="h1Z-66-rZa" secondAttribute="trailing" constant="8" id="wxT-zj-Sgi"/>
                                 </constraints>
@@ -483,7 +491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWY-T1-Mvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2288" y="-66"/>
+            <point key="canvasLocation" x="2286.9565217391305" y="-66.294642857142861"/>
         </scene>
     </scenes>
     <resources>
