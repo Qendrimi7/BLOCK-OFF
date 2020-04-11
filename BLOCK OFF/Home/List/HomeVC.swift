@@ -52,8 +52,18 @@ class HomeVC: UIViewController {
         self.navigationItem.rightBarButtonItem  = logoutBarButtonItem
     }
     
+    // Logout button
     @objc func logoutAction(){
-        AuthToken.logOut()
+        let actionSheetController: UIAlertController = UIAlertController(title: "Are you sure you want to log out?", message: nil, preferredStyle: .actionSheet)
+        let firstAction = UIAlertAction(title: "Yes",
+                                        style: .default) { action -> Void in
+                                            AuthToken.logOut()
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel",
+                                         style: .cancel) { action -> Void in }
+        actionSheetController.addAction(firstAction)
+        actionSheetController.addAction(cancelAction)
+        present(actionSheetController, animated: true, completion: nil)
     }
-    
 }

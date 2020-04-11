@@ -308,10 +308,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b17-sm-C9k">
-                                <rect key="frame" x="0.0" y="160" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="170" width="414" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.83529411760000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Hm5-3X-7jz"/>
+                                    <constraint firstAttribute="height" constant="50" id="Hm5-3X-7jz"/>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -326,7 +326,7 @@
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1W-UD-lv4">
-                                <rect key="frame" x="19" y="41" width="376" height="41"/>
+                                <rect key="frame" x="19" y="51" width="376" height="41"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zRE-lD-gia">
                                         <rect key="frame" x="0.0" y="0.0" width="124" height="41"/>
@@ -393,7 +393,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzh-KV-nhm">
-                                <rect key="frame" x="19" y="90" width="376" height="41"/>
+                                <rect key="frame" x="19" y="100" width="376" height="41"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SXR-hs-3Rq">
                                         <rect key="frame" x="0.0" y="0.0" width="124" height="41"/>
