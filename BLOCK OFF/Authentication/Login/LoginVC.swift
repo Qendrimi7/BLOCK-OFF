@@ -76,6 +76,10 @@ class LoginVC: UIViewController {
         }
     }
     
+    @IBAction func showPasswordAction(_ sender: Any) {
+        passwordTextField.isSecureTextEntry  = !passwordTextField.isSecureTextEntry
+    }
+    
     @IBAction func forgotPasswordAction(_ sender: Any) {
         coordinator.goToForgotPasswordVC()
     }

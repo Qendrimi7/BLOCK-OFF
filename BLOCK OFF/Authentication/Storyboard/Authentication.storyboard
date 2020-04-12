@@ -92,6 +92,9 @@
                                             <constraint firstAttribute="width" constant="24" id="eLH-eQ-R8O"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="baseline_visibility_off"/>
+                                        <connections>
+                                            <action selector="showPasswordAction:" destination="MPI-Mk-Anq" eventType="touchUpInside" id="ABR-Gl-IPb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
