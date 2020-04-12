@@ -13,19 +13,17 @@ import RxCocoa
 struct ForgotPasswordViewModel {
     
     let validatedEmail: Observable<Bool>
-    let resetPasswordEnabled: Observable<Bool>
+    var resetPasswordEnabled: Observable<Bool>
     
     init(
         email: (Observable<String>)
     ) {
         
         self.validatedEmail = email
-        .map { $0.count > 3 }
-        .share(replay: 1)
+            .map { $0.count > 3 }
+            .share(replay: 1)
         
-        self.resetPasswordEnabled = Observable.combineLatest(validatedEmail, validatedEmail) {
-            $0 && $1
-        }
+        self.resetPasswordEnabled = Observable.asObservable(validatedEmail)()
     }
     
     func forgotPassword(
