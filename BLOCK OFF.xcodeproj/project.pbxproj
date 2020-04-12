@@ -160,7 +160,6 @@
 		ECB1EE7D243F755B002F20C5 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
 		ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		ECB1EE83243F76C9002F20C5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
-		ECB1EE85243F812F002F20C5 /* BLOCK OFF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BLOCK OFF.entitlements"; sourceTree = "<group>"; };
 		ECB1EE86243F9FFD002F20C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ECB1EE89243FA21B002F20C5 /* AuthenticationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationProtocol.swift; sourceTree = "<group>"; };
 		ECB1EE8A243FA21C002F20C5 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -250,7 +249,6 @@
 		EC1E1B61243E7730003B1202 /* BLOCK OFF */ = {
 			isa = PBXGroup;
 			children = (
-				ECB1EE85243F812F002F20C5 /* BLOCK OFF.entitlements */,
 				EC1E1B92243E784A003B1202 /* App */,
 				EC1E1B93243E7862003B1202 /* Launch */,
 				ECB1EE4D243F6AF4002F20C5 /* Authentication */,
@@ -1051,7 +1049,6 @@
 			baseConfigurationReference = 4027551BCEDB9EF03493AB31 /* Pods-BLOCK OFF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "BLOCK OFF/BLOCK OFF.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3WASUX7SL;
 				INFOPLIST_FILE = "BLOCK OFF/Info.plist";
@@ -1071,7 +1068,6 @@
 			baseConfigurationReference = BCF2780BFABAE3B6DA93AED6 /* Pods-BLOCK OFF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "BLOCK OFF/BLOCK OFF.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3WASUX7SL;
 				INFOPLIST_FILE = "BLOCK OFF/Info.plist";
