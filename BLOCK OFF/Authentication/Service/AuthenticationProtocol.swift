@@ -12,6 +12,7 @@ import RxSwift
 protocol AuthenticationProtocol {
     static func login(email: String, password: String) -> Observable<AutenticationStatus>
     static func register(userData: AuthenticationRegisterData) -> Observable<AutenticationStatus>
+    static func sendPasswordReset(email: String) -> Observable<AutenticationStatus>
 }
 
 enum AutenticationStatus {
@@ -20,4 +21,5 @@ enum AutenticationStatus {
     case success(String)
     case successLogin(LoginResponse)
     case successRegister(LoginResponse)
+    case successSendPasswordReset(String)
 }

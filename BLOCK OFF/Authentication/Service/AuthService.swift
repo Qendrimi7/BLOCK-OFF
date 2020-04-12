@@ -71,4 +71,26 @@ class AuthService: AuthenticationProtocol {
             return Disposables.create()
         }
     }
+    
+    static func sendPasswordReset(email: String) -> Observable<AutenticationStatus> {
+        
+        return Observable.create { observer in
+            
+            if !Connectivity.isConnectedToInternet() {
+                observer.onNext(.error("No Internet Connection"))
+                observer.onCompleted()
+            }
+            
+            Auth.auth().sendPasswordReset(withEmail: email, completion: { (error) in
+                if error != nil {
+                    guard let errorDescription = error?.localizedDescription else { return }
+                    observer.onNext(.error(errorDescription))
+                } else {
+                    observer.onNext(.successSendPasswordReset("Reset email sent successfully"))
+                }
+            })
+            
+            return Disposables.create()
+        }
+    }
 }

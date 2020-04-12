@@ -22,6 +22,7 @@
 		EC93A7DB24421ED70096835F /* ConfirmBolckOffVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7DA24421ED70096835F /* ConfirmBolckOffVC.swift */; };
 		EC93A7DE24421F9F0096835F /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7DC24421F9F0096835F /* HomeCoordinator.swift */; };
 		EC93A7DF24421F9F0096835F /* HomeCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7DD24421F9F0096835F /* HomeCoordinatorProtocol.swift */; };
+		EC93A7E3244323840096835F /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC93A7E2244323840096835F /* ForgotPasswordViewModel.swift */; };
 		ECB1EE38243F17ED002F20C5 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */; };
 		ECB1EE39243F17ED002F20C5 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */; };
 		ECB1EE3A243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */; };
@@ -118,6 +119,7 @@
 		EC93A7DA24421ED70096835F /* ConfirmBolckOffVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBolckOffVC.swift; sourceTree = "<group>"; };
 		EC93A7DC24421F9F0096835F /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		EC93A7DD24421F9F0096835F /* HomeCoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		EC93A7E2244323840096835F /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 		ECB1EE25243F17ED002F20C5 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ECB1EE26243F17ED002F20C5 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ECB1EE27243F17ED002F20C5 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -364,6 +366,15 @@
 			path = List;
 			sourceTree = "<group>";
 		};
+		EC93A7E1244323530096835F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */,
+				EC93A7E2244323840096835F /* ForgotPasswordViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		ECB1EE24243F17ED002F20C5 /* Poppins */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,7 +520,7 @@
 		ECB1EE7F243F7621002F20C5 /* Forgot Password */ = {
 			isa = PBXGroup;
 			children = (
-				ECB1EE80243F7652002F20C5 /* ForgotPasswordVC.swift */,
+				EC93A7E1244323530096835F /* List */,
 			);
 			path = "Forgot Password";
 			sourceTree = "<group>";
@@ -860,6 +871,7 @@
 				ECB1EE56243F6E0E002F20C5 /* UIViewController.swift in Sources */,
 				ECB1EE5F243F6F3A002F20C5 /* Connectivity.swift in Sources */,
 				ECB1EE72243F702A002F20C5 /* CustomPresentationController.swift in Sources */,
+				EC93A7E3244323840096835F /* ForgotPasswordViewModel.swift in Sources */,
 				EC1E1B63243E7730003B1202 /* AppDelegate.swift in Sources */,
 				ECB1EE84243F76C9002F20C5 /* RegisterVC.swift in Sources */,
 				ECB1EE95243FB7C8002F20C5 /* LoginViewModel.swift in Sources */,

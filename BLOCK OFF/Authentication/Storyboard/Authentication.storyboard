@@ -306,6 +306,9 @@ send you a link to reset your password</string>
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="sendResetPassword:" destination="IPG-Qg-NTv" eventType="touchUpInside" id="xQI-k6-F91"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forgot_password_background_pdf" translatesAutoresizingMaskIntoConstraints="NO" id="fwS-2K-oyK">
                                 <rect key="frame" x="0.0" y="799" width="414" height="167"/>
@@ -333,6 +336,9 @@ send you a link to reset your password</string>
                         <viewLayoutGuide key="safeArea" id="PmJ-Yb-X8w"/>
                     </view>
                     <navigationItem key="navigationItem" id="FkM-QR-y1d"/>
+                    <connections>
+                        <outlet property="forgotPasswordTextField" destination="av5-X8-0HL" id="45R-Jp-6nO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUr-WS-Fup" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
