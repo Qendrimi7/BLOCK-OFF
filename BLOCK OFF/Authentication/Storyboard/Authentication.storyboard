@@ -337,7 +337,8 @@ send you a link to reset your password</string>
                     </view>
                     <navigationItem key="navigationItem" id="FkM-QR-y1d"/>
                     <connections>
-                        <outlet property="forgotPasswordTextField" destination="av5-X8-0HL" id="45R-Jp-6nO"/>
+                        <outlet property="emailTextField" destination="av5-X8-0HL" id="45R-Jp-6nO"/>
+                        <outlet property="sendResetPasswordButton" destination="h70-Og-fbD" id="2Oo-Hb-fj5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUr-WS-Fup" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
