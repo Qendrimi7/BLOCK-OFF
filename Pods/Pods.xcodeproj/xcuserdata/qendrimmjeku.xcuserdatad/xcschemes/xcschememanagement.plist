@@ -123,14 +123,14 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
-		<key>GooglePlacePicker.xcscheme</key>
+		<key>GooglePlaces.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>GooglePlaces.xcscheme</key>
+		<key>GooglePlacesSearchController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

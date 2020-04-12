@@ -8,6 +8,5 @@
 
 import Foundation
 
-private(set) var googleClientId = ""
-private(set) var googleServerClientId = ""
 private(set) var googleApiKey = "AIzaSyAxcU221ntkt_zvnI9M0TptA4bISdRrwNU"
+private(set) var googleMapsAPIServerKey = "AIzaSyBNoYdOlaSdp8DJJc6Pow1VqxrKplIRTJA"

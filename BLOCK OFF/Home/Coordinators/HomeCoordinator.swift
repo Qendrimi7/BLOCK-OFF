@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GooglePlacesSearchController
 
 class HomeCoordinator: HomeCoordinatorProtocol {
 
@@ -16,8 +17,9 @@ class HomeCoordinator: HomeCoordinatorProtocol {
         self.presenter = presenter
     }
     
-    func goToNewAddressVC() {
+    func goToNewAddressVC(didAutocompleteWith place: PlaceDetails?) {
         let nextVC: NewAddressVC = NewAddressVC.instantiate(appStoryboard: .home)
+        nextVC.place = place
         presenter.pushViewController(nextVC, animated: true)
     }
     

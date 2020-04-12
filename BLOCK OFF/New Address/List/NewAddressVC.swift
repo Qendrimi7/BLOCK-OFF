@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMaps
+import GooglePlacesSearchController
 
 class NewAddressVC: UIViewController {
     
@@ -15,6 +16,7 @@ class NewAddressVC: UIViewController {
     @IBOutlet weak var fromLocationTextField: UITextField!
     @IBOutlet weak var toLocationTextField: UITextField!
     
+    var place: PlaceDetails!
     var london: GMSMarker?
     var londonView: UIImageView?
     let interactor = Interactor()
@@ -33,34 +35,49 @@ class NewAddressVC: UIViewController {
     }
     
     private func setupMapView() {
-        let camera = GMSCameraPosition.camera(
-            withLatitude: 51.5,
-            longitude: -0.127,
-            zoom: 14
-        )
         
-        mapView.camera = camera
-        mapView.delegate = self
-        
-        let barricade = UIImage(named: "app_icon")!
-        let markerView = UIImageView(image: barricade)
-        londonView = markerView
-        
-        let positionA = CLLocationCoordinate2D(latitude: 51.5, longitude: -0.127)
-        let markerA = GMSMarker(position: positionA)
-        markerA.title = "Area A"
-        markerA.iconView = markerView
-        markerA.tracksViewChanges = true
-        markerA.map = mapView
-        london = markerA
-        
-        let positionB = CLLocationCoordinate2D(latitude: 51.4, longitude: -0.187)
-        let markerB = GMSMarker(position: positionB)
-        markerB.title = "Area B"
-        markerB.iconView = markerView
-        markerB.tracksViewChanges = true
-        markerB.map = mapView
-        london = markerB
+        if let place = place,
+            let coordinate = place.coordinate {
+            
+            let camera = GMSCameraPosition.camera(
+                withLatitude: coordinate.latitude,
+                longitude: coordinate.longitude,
+                zoom: 14
+            )
+            
+            mapView.camera = camera
+            mapView.delegate = self
+            
+        } else {
+            let camera = GMSCameraPosition.camera(
+                withLatitude: 51.5,
+                longitude: -0.127,
+                zoom: 14
+            )
+            
+            mapView.camera = camera
+            mapView.delegate = self
+            
+            let barricade = UIImage(named: "app_icon")!
+            let markerView = UIImageView(image: barricade)
+            londonView = markerView
+            
+            let positionA = CLLocationCoordinate2D(latitude: 51.5, longitude: -0.127)
+            let markerA = GMSMarker(position: positionA)
+            markerA.title = "Area A"
+            markerA.iconView = markerView
+            markerA.tracksViewChanges = true
+            markerA.map = mapView
+            london = markerA
+            
+            let positionB = CLLocationCoordinate2D(latitude: 51.4, longitude: -0.187)
+            let markerB = GMSMarker(position: positionB)
+            markerB.title = "Area B"
+            markerB.iconView = markerView
+            markerB.tracksViewChanges = true
+            markerB.map = mapView
+            london = markerB
+        }
         
     }
     

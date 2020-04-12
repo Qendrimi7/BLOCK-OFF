@@ -17,9 +17,9 @@ def default_pods
   pod 'Firebase'
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
-  pod 'GooglePlacePicker'
-  pod 'GooglePlaces'
-  pod 'GoogleMaps'
+  pod 'GooglePlaces', '3.8.0.0'
+  pod 'GoogleMaps', '3.8.0.0'
+  pod 'GooglePlacesSearchController'
   pod 'DeviceKit', '~> 2.0'
   
 end

@@ -335,7 +335,6 @@
 		EC93A7D4244205F90096835F /* New Address */ = {
 			isa = PBXGroup;
 			children = (
-				EC93A7E02442202D0096835F /* Coordinators */,
 				EC93A7D5244206110096835F /* List */,
 			);
 			path = "New Address";
@@ -363,13 +362,6 @@
 				EC93A7DA24421ED70096835F /* ConfirmBolckOffVC.swift */,
 			);
 			path = List;
-			sourceTree = "<group>";
-		};
-		EC93A7E02442202D0096835F /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		ECB1EE24243F17ED002F20C5 /* Poppins */ = {

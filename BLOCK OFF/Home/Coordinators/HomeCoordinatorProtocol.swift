@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import GooglePlacesSearchController
 
 protocol HomeCoordinatorProtocol {
-    func goToNewAddressVC()
+    func goToNewAddressVC(didAutocompleteWith place: PlaceDetails?)
     func goToConfirmBlockOffVC(interactor: Interactor, presenting: UIViewController)
 }
 
