@@ -226,7 +226,7 @@
                                     <action selector="confirmAction:" destination="x5j-Lx-B6c" eventType="touchUpInside" id="7kt-kK-hV1"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRX-F6-lYW">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRX-F6-lYW" userLabel="Add More View">
                                 <rect key="frame" x="23" y="805" width="120" height="41"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_more_icon" translatesAutoresizingMaskIntoConstraints="NO" id="FJt-Du-yUA">
@@ -281,7 +281,7 @@
                             <constraint firstItem="Tmz-kf-apZ" firstAttribute="trailing" secondItem="Te6-Ad-wFj" secondAttribute="trailing" id="WqB-RG-V1A"/>
                             <constraint firstItem="rcv-LD-kBg" firstAttribute="top" secondItem="Te6-Ad-wFj" secondAttribute="top" id="X4S-B3-Ihm"/>
                             <constraint firstAttribute="bottom" secondItem="Tmz-kf-apZ" secondAttribute="bottom" id="beD-En-cMY"/>
-                            <constraint firstItem="Tmz-kf-apZ" firstAttribute="top" secondItem="rcv-LD-kBg" secondAttribute="bottom" id="n5C-hl-M0T"/>
+                            <constraint firstItem="Tmz-kf-apZ" firstAttribute="top" secondItem="Te6-Ad-wFj" secondAttribute="top" constant="130" id="diy-Sn-NvN"/>
                             <constraint firstItem="Te6-Ad-wFj" firstAttribute="trailing" secondItem="KMv-i7-S7R" secondAttribute="trailing" constant="23" id="oGA-0w-Wl8"/>
                             <constraint firstItem="rcv-LD-kBg" firstAttribute="leading" secondItem="Te6-Ad-wFj" secondAttribute="leading" id="rxx-ff-1jS"/>
                             <constraint firstItem="cg2-al-d1w" firstAttribute="centerY" secondItem="KMv-i7-S7R" secondAttribute="centerY" id="vnd-cT-8TN"/>
@@ -290,8 +290,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="b71-cg-vZ3"/>
                     <connections>
+                        <outlet property="addMoreView" destination="bRX-F6-lYW" id="Y16-x5-xQM"/>
+                        <outlet property="confirmButton" destination="KMv-i7-S7R" id="B00-8w-GbL"/>
                         <outlet property="fromLocationTextField" destination="Aqm-N4-MSo" id="WSC-MI-uPA"/>
+                        <outlet property="headerView" destination="rcv-LD-kBg" id="Hay-pi-rab"/>
                         <outlet property="mapView" destination="Tmz-kf-apZ" id="7Bd-iw-1kD"/>
+                        <outlet property="mapViewTopConstraint" destination="diy-Sn-NvN" id="LeN-g3-Pwb"/>
                         <outlet property="toLocationTextField" destination="iZW-Da-Tar" id="KsW-4g-Imq"/>
                     </connections>
                 </viewController>

@@ -12,9 +12,13 @@ import GooglePlacesSearchController
 
 class NewAddressVC: UIViewController {
     
+    @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet weak var fromLocationTextField: UITextField!
     @IBOutlet weak var toLocationTextField: UITextField!
+    @IBOutlet weak var mapViewTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var addMoreView: UIView!
+    @IBOutlet weak var confirmButton: UIButton!
     
     var place: PlaceDetails!
     var model: HomeModel!
@@ -50,6 +54,9 @@ class NewAddressVC: UIViewController {
             mapView.delegate = self
             
         } else {
+            
+            hideSomeView()
+
             let camera = GMSCameraPosition.camera(
                 withLatitude: model.cordinateArea.areaA.latitude,
                 longitude: model.cordinateArea.areaD.longitude,
@@ -103,7 +110,13 @@ class NewAddressVC: UIViewController {
             markerD.map = mapView
             london = markerB
         }
-        
+    }
+    
+    private func hideSomeView() {
+        headerView.isHidden = true
+        mapViewTopConstraint.constant = 0
+        addMoreView.isHidden = true
+        confirmButton.isHidden = true
     }
     
     @IBAction func confirmAction(_ sender: Any) {
