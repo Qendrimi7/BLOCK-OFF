@@ -19,11 +19,10 @@ struct HomeViewModel {
                                   areaC: (latitude: 41.235346, longitude: -103.650726),
                                   areaD: (latitude: 41.235566, longitude: -103.650718))
     
-        let secoundItem = CordinateArea(areaA: (latitude: 43.836565, longitude: -101.741683),
-                                  areaB: (latitude: 43.850243, longitude: -101.741254),
-                                  areaC: (latitude: 43.850240, longitude: -101.721447),
-                                  areaD: (latitude: 43.835557, longitude: -101.721389))
-        
+        let secoundItem = CordinateArea(areaA: (latitude: 41.159714, longitude: -101.123267),
+                                  areaB: (latitude: 41.160019, longitude: -101.123297),
+                                  areaC: (latitude: 41.160046, longitude: -101.122831),
+                                  areaD: (latitude: 41.159814, longitude: -101.122817))
 
         let thirdItem = CordinateArea(areaA: (latitude: 44.362094, longitude: -100.328664),
                                   areaB: (latitude: 44.363057, longitude: -100.328664),
@@ -35,8 +34,6 @@ struct HomeViewModel {
                                   areaC: (latitude: 39.750908, longitude: -104.942813),
                                   areaD: (latitude: 39.751046, longitude: -104.942565))
         
-     
-        
         items.append(HomeModel(
             image: UIImage(named: "app_icon")!,
             title: "Address: Kimball, NE 69145, USA",
@@ -47,7 +44,7 @@ struct HomeViewModel {
         
         items.append(HomeModel(
             image: UIImage(named: "app_icon")!,
-            title: "Address: Kadoka, SD 57543, USA",
+            title: "Address: Sutherland, NE 69165, USA",
             startTime: "2020/02/22 11:00 AM",
             endTime: "2020/02/23 9:00 AM",
             cordinateArea: secoundItem)
