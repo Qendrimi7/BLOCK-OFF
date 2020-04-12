@@ -80,6 +80,10 @@ class RegisterVC: UIViewController {
         registerButton.alpha = enable ? 1 : 0.5
     }
     
+    @IBAction func showPasswordAction(_ sender: Any) {
+        passwordTextField.isSecureTextEntry  = !passwordTextField.isSecureTextEntry
+    }
+    
     @IBAction func registerAction(_ sender: Any) {
         self.showProgress()
         viewModel.register(
