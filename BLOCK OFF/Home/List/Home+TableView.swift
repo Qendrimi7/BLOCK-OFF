@@ -21,7 +21,7 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        coordinator.goToNewAddressVC(didAutocompleteWith: nil)
+        coordinator.goToNewAddressVC(didAutocompleteWith: nil, model: items[indexPath.row])
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

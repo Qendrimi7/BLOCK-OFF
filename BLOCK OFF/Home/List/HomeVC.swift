@@ -104,6 +104,6 @@ class HomeVC: UIViewController {
 extension HomeVC: GooglePlacesAutocompleteViewControllerDelegate {
     func viewController(didAutocompleteWith place: PlaceDetails) {
         placesSearchController.isActive = false
-        coordinator.goToNewAddressVC(didAutocompleteWith: place)
+        coordinator.goToNewAddressVC(didAutocompleteWith: place, model: nil)
     }
 }

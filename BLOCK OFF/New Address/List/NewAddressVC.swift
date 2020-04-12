@@ -17,6 +17,7 @@ class NewAddressVC: UIViewController {
     @IBOutlet weak var toLocationTextField: UITextField!
     
     var place: PlaceDetails!
+    var model: HomeModel!
     var london: GMSMarker?
     var londonView: UIImageView?
     let interactor = Interactor()
@@ -50,8 +51,8 @@ class NewAddressVC: UIViewController {
             
         } else {
             let camera = GMSCameraPosition.camera(
-                withLatitude: 51.5,
-                longitude: -0.127,
+                withLatitude: model.cordinateArea.areaA.latitude,
+                longitude: model.cordinateArea.areaD.longitude,
                 zoom: 14
             )
             
@@ -61,21 +62,45 @@ class NewAddressVC: UIViewController {
             let barricade = UIImage(named: "app_icon")!
             let markerView = UIImageView(image: barricade)
             londonView = markerView
+           
+            let areaA = model.cordinateArea.areaA
             
-            let positionA = CLLocationCoordinate2D(latitude: 51.5, longitude: -0.127)
+            let positionA = CLLocationCoordinate2D(latitude: areaA.latitude, longitude: areaA.longitude)
             let markerA = GMSMarker(position: positionA)
             markerA.title = "Area A"
             markerA.iconView = markerView
             markerA.tracksViewChanges = true
             markerA.map = mapView
             london = markerA
+           
+            let areaB = model.cordinateArea.areaB
             
-            let positionB = CLLocationCoordinate2D(latitude: 51.4, longitude: -0.187)
+            let positionB = CLLocationCoordinate2D(latitude: areaB.latitude, longitude: areaB.longitude)
             let markerB = GMSMarker(position: positionB)
             markerB.title = "Area B"
             markerB.iconView = markerView
             markerB.tracksViewChanges = true
             markerB.map = mapView
+            london = markerB
+            
+            let areaC = model.cordinateArea.areaC
+            
+            let positionC = CLLocationCoordinate2D(latitude: areaC.latitude, longitude: areaC.longitude)
+            let markerC = GMSMarker(position: positionC)
+            markerC.title = "Area C"
+            markerC.iconView = markerView
+            markerC.tracksViewChanges = true
+            markerC.map = mapView
+            london = markerB
+            
+            let areaD = model.cordinateArea.areaD
+        
+            let positionD = CLLocationCoordinate2D(latitude: areaD.latitude, longitude: areaD.longitude)
+            let markerD = GMSMarker(position: positionD)
+            markerD.title = "Area C"
+            markerD.iconView = markerView
+            markerD.tracksViewChanges = true
+            markerD.map = mapView
             london = markerB
         }
         

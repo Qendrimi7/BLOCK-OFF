@@ -17,9 +17,10 @@ class HomeCoordinator: HomeCoordinatorProtocol {
         self.presenter = presenter
     }
     
-    func goToNewAddressVC(didAutocompleteWith place: PlaceDetails?) {
+    func goToNewAddressVC(didAutocompleteWith place: PlaceDetails?, model: HomeModel?) {
         let nextVC: NewAddressVC = NewAddressVC.instantiate(appStoryboard: .home)
         nextVC.place = place
+        nextVC.model = model
         presenter.pushViewController(nextVC, animated: true)
     }
     
